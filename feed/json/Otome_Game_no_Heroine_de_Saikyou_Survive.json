@@ -1,0 +1,38 @@
+{
+  "query": "Nữ chính sinh tồn mạnh mẽ trong thế giới Otome Game",
+  "rows": [
+    {
+      "author": "Harunohi Biyori (Biyori Harunohi); Minh họa: Hitaki Yuu (Yuu Hitaki)",
+      "isbn": "978-604-345-544-1",
+      "partner": "Công ty cổ phần sách Phú Sĩ - Số 50, Đường 5, Khu tập thể F361, An Dương, quận Tây Hồ, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "853-2024/CXBIPH/15-49/ThG",
+      "self_published": "",
+      "stt": "1",
+      "title": "Nữ chính sinh tồn mạnh mẽ trong thế giới Otome Game 2",
+      "translator": "Yuru"
+    },
+    {
+      "author": "Harunohi Biyori (Biyori Harunohi); Minh họa: Hitaki Yuu (Yuu Hitaki)",
+      "isbn": "978-604-77-5868-5",
+      "partner": "Công ty cổ phần sách Phú Sĩ - Số 50, Đường 5, Khu tập thể F361, An Dương, quận Tây Hồ, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "4177-2023/CXBIPH/6-216/ThG",
+      "self_published": "",
+      "stt": "2",
+      "title": "Nữ chính sinh tồn mạnh mẽ trong thế giới Otome Game 2",
+      "translator": "Yuru"
+    },
+    {
+      "author": "Harunohi Biyori (Biyori Harunohi); Minh họa: Hitaki Yuu (Yuu Hitaki)",
+      "isbn": "978-604-345-098-9",
+      "partner": "Công ty cổ phần sách Phú Sĩ - Số 50, Đường 5, Khu tập thể F361, An Dương, quận Tây Hồ, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "2099-2023/CXBIPH/4-121/ThG",
+      "self_published": "",
+      "stt": "3",
+      "title": "Nữ chính sinh tồn mạnh mẽ trong thế giới Otome Game 1",
+      "translator": "Yuru"
+    }
+  ]
+}
