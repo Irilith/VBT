@@ -1,0 +1,28 @@
+[package]
+name = "VBT"
+version = "0.0.0"
+description = "Vietnamese Books Feed Tracker"
+license = "GPL-3.0"
+authors = ["itsliris <itslirissama@gmail.com>"]
+edition = "2021"
+
+[[bin]]
+name = "vbt"
+path = "src/main.rs"
+
+[lib]
+path = "src/lib.rs"
+name = "vbt_lib"
+
+[[example]]
+name = "wh"
+path = "examples/discord_wh.rs"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+scraper = "0.14"
+chrono = "0.4"
+tokio = { version = "1.0", features = ["full"] }
+dotenv.workspace = true
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

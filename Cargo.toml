@@ -1,34 +1,14 @@
-[package]
-name = "VBT"
-version = "0.0.0"
-description = "Vietnamese Books Feed Tracker"
-license = "GPL-3.0"
-authors = ["itsliris <itslirissama@gmail.com>"]
-edition = "2021"
+[workspace]
+resolver = "2"
+members = ["crates/vbt", "crates/rss"]
+# Main
+default-members = ["crates/vbt"]
 
-[[bin]]
-name = "vbt"
-path = "src/main.rs"
-
-[lib]
-path = "src/lib.rs"
-name = "vbt_lib"
-
-[[example]]
-name = "wh"
-path = "examples/discord_wh.rs"
+[workspace.dependencies]
+dotenv = "0.15.0"
 
 [profile.release]
 debug = false
 lto = "thin"
 opt-level = 2
 panic = 'abort'
-
-[dependencies]
-reqwest = { version = "0.11", features = ["json"] }
-scraper = "0.14"
-chrono = "0.4"
-tokio = { version = "1.0", features = ["full"] }
-dotenv = "0.15.0"
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
