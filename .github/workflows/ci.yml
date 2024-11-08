@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - "feed/**/*"
+      - ".github/workflows/*"
+      - "*.md"
+      - "data_cache.json"
+      - "watchlist.json"
+  pull_request:
+    branches:
+      - "**"
+    paths-ignore:
+      - "feed/**/*"
+      - ".github/workflows/*"
+      - "*.md"
+      - "data_cache.json"
+      - "watchlist.json"
+      
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}-${{ github.ref_name == 'main' && github.sha || 'anysha' }}
+  cancel-in-progress: true
+  
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Rust Cache
+      uses: Swatinem/rust-cache@v2.7.3
+
+    - name: Build
+      run: cargo build --verbose
