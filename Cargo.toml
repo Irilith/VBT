@@ -2,6 +2,7 @@
 name = "VBT"
 version = "0.0.0"
 description = "Vietnamese Books Feed Tracker"
+license = "GPL-3.0"
 authors = ["itsliris <itslirissama@gmail.com>"]
 edition = "2021"
 
