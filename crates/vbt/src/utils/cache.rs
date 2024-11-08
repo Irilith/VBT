@@ -5,6 +5,7 @@ use std::{collections::HashMap, fs::File};
 #[derive(Serialize, Deserialize)]
 pub struct Cache<T> {
     pub data: HashMap<String, T>,
+    pub title_build_date: HashMap<String, T>,
 }
 
 pub fn generate_cache_key(book: &BookRow) -> String {
@@ -19,6 +20,7 @@ pub fn load_cache<T: for<'de> Deserialize<'de>>(path: &str) -> Cache<T> {
     }
     Cache {
         data: HashMap::new(),
+        title_build_date: HashMap::new(),
     }
 }
 
