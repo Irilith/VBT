@@ -74,8 +74,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load .env file
     dotenv().ok();
     let id = generate_unix_timestamp();
-    let url = wh::weekly_url().map_err(Box::<dyn std::error::Error>::from)?;
-    let title = "A weekly run has started".to_string();
+    let url = wh::daily_url().map_err(Box::<dyn std::error::Error>::from)?;
+    let title = "A daily run has started".to_string();
     let description = format!("Id: {}", id);
 
     let embed = DiscordEmbed {
