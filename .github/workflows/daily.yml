@@ -28,7 +28,7 @@ jobs:
       - name: Run
         run: cargo run
         env:
-          WEEKLY: ${{ secrets.WEEKLY }}
+          DAILY: ${{ secrets.DAILY }}
           PROCESSED: ${{ secrets.PROCESSED }}
 
       - name: Git Auto Commit
