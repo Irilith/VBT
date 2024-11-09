@@ -28,5 +28,6 @@ Nếu bạn biết cách sử dụng json thì bạn có thể vào watchlist.js
       }
     ],
     "cover": "cover url"
-  }```
+  }
+  ```
 -->
