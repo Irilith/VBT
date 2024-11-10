@@ -1,5 +1,9 @@
+use std::fmt::format;
+
+use chrono::{Duration, Utc};
 use dotenv::dotenv;
 use vbt_lib::{
+    config::flag::{EnvFlag, FT_CONFIG},
     discord::{
         send::{send, DiscordEmbed, EmbedFooter, EmbedThumbnail},
         wh,
@@ -11,7 +15,21 @@ use vbt_lib::{
     utils::time::{generate_time, generate_unix_timestamp},
 };
 
-async fn process_watchlist(id: i64) -> Result<(), Box<dyn std::error::Error>> {
+async fn send_webhook_message(
+    url: String,
+    mention: String,
+    embed: DiscordEmbed,
+    config: &EnvFlag,
+) -> Result<(), Box<dyn std::error::Error>> {
+    if config.ft_webhook {
+        send(url, mention, Some(embed))
+            .await
+            .map_err(Box::<dyn std::error::Error>::from)?;
+    }
+    Ok(())
+}
+
+async fn process_watchlist(id: i64, config: &EnvFlag) -> Result<(), Box<dyn std::error::Error>> {
     let watchlist = load_watchlist()?;
 
     for entry in watchlist {
@@ -46,26 +64,25 @@ async fn process_watchlist(id: i64) -> Result<(), Box<dyn std::error::Error>> {
         rss_ops::save_rss(&rss_content, &format!("feed/rss/{}.rss", filename_base))?;
 
         println!("Processed: {}", entry.name);
-        let url = wh::processed_url().map_err(Box::<dyn std::error::Error>::from)?;
-        let title = entry.name;
-        let description = format!("Id: **{}**", id);
 
-        let embed = DiscordEmbed {
-            title,
-            description,
-            footer: Some(EmbedFooter {
-                text: format!("VBT - {}", generate_time()),
+        if config.ft_webhook {
+            let url = wh::processed_url().map_err(Box::<dyn std::error::Error>::from)?;
+            let title = entry.name;
+            let description = format!("Id: **{}**", id);
+            let embed = DiscordEmbed {
+                title,
+                description,
+                footer: Some(EmbedFooter {
+                    text: format!("VBT - {}", generate_time()),
+                    ..Default::default()
+                }),
+                thumbnail: Some(EmbedThumbnail { url: entry.cover }),
                 ..Default::default()
-            }),
-            thumbnail: Some(EmbedThumbnail { url: entry.cover }),
-            ..Default::default()
-        };
+            };
 
-        send(url, "<@&1304123731442012220>".to_string(), Some(embed))
-            .await
-            .map_err(Box::<dyn std::error::Error>::from)?;
+            send_webhook_message(url, "<@&1304123731442012220>".to_string(), embed, config).await?;
+        }
     }
-
     Ok(())
 }
 
@@ -73,43 +90,54 @@ async fn process_watchlist(id: i64) -> Result<(), Box<dyn std::error::Error>> {
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Load .env file
     dotenv().ok();
+
+    let future_start_time = (Utc::now() + Duration::hours(24)).timestamp();
+    let config = FT_CONFIG.read().unwrap();
+    println!("{:?}", config);
     let id = generate_unix_timestamp();
-    let url = wh::daily_url().map_err(Box::<dyn std::error::Error>::from)?;
-    let title = "A daily run has started".to_string();
-    let description = format!("Id: {}", id);
 
-    let embed = DiscordEmbed {
-        title,
-        description,
-        footer: Some(EmbedFooter {
-            text: format!("VBT - {}", generate_time()),
-            ..Default::default()
-        }),
-        ..Default::default()
-    };
-
-    send(
-        url.to_string(),
-        "<@&1304134014734434315>".to_string(),
-        Some(embed),
-    )
-    .await
-    .map_err(Box::<dyn std::error::Error>::from)?;
-
-    match process_watchlist(id).await {
-        Ok(_) => {
-            let title = "Finished".to_string();
-            let embed = DiscordEmbed {
-                title,
-                footer: Some(EmbedFooter {
-                    text: format!("VBT - {}", generate_time()),
-                    ..Default::default()
-                }),
+    if config.ft_webhook {
+        let url = wh::daily_url().map_err(Box::<dyn std::error::Error>::from)?;
+        let title = "A daily worker has started".to_string();
+        let description = format!("Id: {}", id);
+        let embed = DiscordEmbed {
+            title,
+            description,
+            footer: Some(EmbedFooter {
+                text: format!("VBT - {}", generate_time()),
                 ..Default::default()
-            };
-            send(url.clone().to_string(), "".to_string(), Some(embed))
-                .await
-                .map_err(Box::<dyn std::error::Error>::from)?;
+            }),
+            ..Default::default()
+        };
+
+        send_webhook_message(
+            url.clone(),
+            "<@&1304134014734434315>".to_string(),
+            embed,
+            &config,
+        )
+        .await?;
+    }
+
+    match process_watchlist(id, &config).await {
+        Ok(_) => {
+            if config.ft_webhook {
+                let url = wh::daily_url().map_err(Box::<dyn std::error::Error>::from)?;
+                let title = "Finished".to_string();
+                // <t:TIME:R> Relative
+                let description = format!("Next automatic worker is: <t:{}:R>", future_start_time);
+                let embed = DiscordEmbed {
+                    title,
+                    description,
+                    footer: Some(EmbedFooter {
+                        text: format!("VBT - {}", generate_time()),
+                        ..Default::default()
+                    }),
+                    ..Default::default()
+                };
+
+                send_webhook_message(url, "".to_string(), embed, &config).await?;
+            }
             Ok(())
         }
         Err(e) => Err(e),

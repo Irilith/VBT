@@ -1,3 +1,4 @@
+pub mod config;
 pub mod discord;
 pub mod file_ops;
 pub mod json;
