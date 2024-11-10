@@ -2,5 +2,9 @@
   {
     "repo": "https://github.com/Irilith/VBT",
     "branch": "main"
+  },
+  {
+    "repo": "https://github.com/MoonDaReal/VBT",
+    "branch": "main"
   }
 ]
