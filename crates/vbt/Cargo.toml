@@ -19,7 +19,7 @@ name = "wh"
 path = "examples/discord_wh.rs"
 
 [dependencies]
-reqwest = { version = "0.11", features = ["json"] }
+reqwest = { version = "0.12", features = ["json"] }
 scraper = "0.14"
 chrono = "0.4"
 tokio = { version = "1.0", features = ["full"] }
