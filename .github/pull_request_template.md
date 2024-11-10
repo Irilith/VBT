@@ -8,4 +8,6 @@ If your PR related to add your repo to rss.json
 make sure your watchlist's title doesn't exist in the web page
 check if its exist in: https://irilith.github.io/VBT
 
+Xoá phần này sau khi đọc xong
+Delete this after read
 -->
