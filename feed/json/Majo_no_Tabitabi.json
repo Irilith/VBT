@@ -3,12 +3,34 @@
   "rows": [
     {
       "author": "Jougi Shiraishi;Minh họa: Azure",
+      "isbn": "978-604-359-037-1",
+      "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Ngọc Hà, Ba Đình, Hà Nội",
+      "quantity": "5000",
+      "registration_number": "1812-2025/CXBIPH/1-155/HN",
+      "self_published": "",
+      "stt": "1",
+      "title": "Hành trình của Elaina tập 11",
+      "translator": "Ji"
+    },
+    {
+      "author": "Jougi Shiraishi;Minh họa: Azure",
+      "isbn": "978-604-359-038-8",
+      "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Ngọc Hà, Ba Đình, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "1306-2025/CXBIPH/1-123/HN",
+      "self_published": "",
+      "stt": "2",
+      "title": "Hành trình của Elaina tập 12",
+      "translator": "Aki"
+    },
+    {
+      "author": "Jougi Shiraishi;Minh họa: Azure",
       "isbn": "978-604-355-872-2",
       "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Ngọc Hà, Ba Đình, Hà Nội",
       "quantity": "5000",
       "registration_number": "1001-2025/CXBIPH/19-97/HN",
       "self_published": "",
-      "stt": "1",
+      "stt": "3",
       "title": "Hành trình của Elaina tập 2",
       "translator": "Thỏ Koyuki"
     },
@@ -19,7 +41,7 @@
       "quantity": "5000",
       "registration_number": "1001-2025/CXBIPH/18-97/HN",
       "self_published": "",
-      "stt": "2",
+      "stt": "4",
       "title": "Hành trình của Elaina tập 12",
       "translator": "Thỏ Koyuki"
     },
@@ -30,7 +52,7 @@
       "quantity": "5000",
       "registration_number": "420-2025/CXBIPH/3-37/HN",
       "self_published": "",
-      "stt": "3",
+      "stt": "5",
       "title": "Hành trình của Elaina tập 6",
       "translator": "Nguyễn Thị Liên"
     },
@@ -41,7 +63,7 @@
       "quantity": "5000",
       "registration_number": "5-2025/CXBIPH/7-01/HN",
       "self_published": "",
-      "stt": "4",
+      "stt": "6",
       "title": "Hành trình của Elaina - tập 16",
       "translator": "Ji"
     },
@@ -52,7 +74,7 @@
       "quantity": "5000",
       "registration_number": "4912-2024/CXBIPH/1-359/HN",
       "self_published": "",
-      "stt": "5",
+      "stt": "7",
       "title": "Hành trình của Elaina, tập 9",
       "translator": "Dâu Tây"
     },
@@ -63,7 +85,7 @@
       "quantity": "5000",
       "registration_number": "3963-2024/CXBIPH/1-291/HN",
       "self_published": "",
-      "stt": "6",
+      "stt": "8",
       "title": "Hành trình của Elaina tập 4",
       "translator": "Trần Hà"
     },
@@ -74,7 +96,7 @@
       "quantity": "5000",
       "registration_number": "1708-2024/CXBIPH/5-146/HN",
       "self_published": "",
-      "stt": "7",
+      "stt": "9",
       "title": "Hành trình của Elaina tập 15",
       "translator": "Ji"
     },
@@ -85,31 +107,9 @@
       "quantity": "5000",
       "registration_number": "1421-2024/CXBIPH/14-128/HN",
       "self_published": "",
-      "stt": "8",
+      "stt": "10",
       "title": "Hành trình của Elaina - tập 15",
       "translator": "Ji"
-    },
-    {
-      "author": "Jougi Shiraishi; Minh họa: Azure",
-      "isbn": "978-604-44-1537-6",
-      "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Ngọc Hà, Ba Đình, Hà Nội",
-      "quantity": "5000",
-      "registration_number": "755-2024/CXBIPH/8-67/HN",
-      "self_published": "",
-      "stt": "9",
-      "title": "Hành trình của Elaina - tập 1",
-      "translator": "Hương Giang"
-    },
-    {
-      "author": "Jougi Shiraishi Minh họa: Azure",
-      "isbn": "978-604-44-1068-5",
-      "partner": "Công ty cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Ngọc Hà, Ba Đình, Hà Nội",
-      "quantity": "10000",
-      "registration_number": "540-2024/CXBIPH/3-41/HN",
-      "self_published": "",
-      "stt": "10",
-      "title": "Hành trình của Elaina tập 8",
-      "translator": "Thỏ Koyuki"
     }
   ]
 }
