@@ -2,13 +2,24 @@
   "query": "Overlord",
   "rows": [
     {
+      "author": "Nguyên tác: Maruyama Kugane Thiết kế nhân vật: so-bin;Minh họa truyện tranh: Miyama Hugin;Kịch bản truyện tranh: Oshio Satoshi",
+      "isbn": "978-604-395-586-6",
+      "partner": "Công ty CP Xuất bản và Truyền thông IPM - Địa chỉ: Số 110 Nguyễn Ngọc Nại, Phương Liệt, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "3307-2025/CXBIPH/3-279/HN",
+      "self_published": "",
+      "stt": "1",
+      "title": "Overlord - 02",
+      "translator": "Supa"
+    },
+    {
       "author": "Maruyama Kugane",
       "isbn": "978-604-476-527-3",
       "partner": "Công ty cổ phần xuất bản và truyền thông IPM: 110 Nguyễn Ngọc Nại, Phường Khương Mai, Quận Thanh Xuân, TP.Hà Nội",
       "quantity": "10000",
       "registration_number": "1877-2025/CXBIPH/2-68/HĐ",
       "self_published": "",
-      "stt": "1",
+      "stt": "2",
       "title": "OVERLORD 11 - Thợ thủ công Dwarf",
       "translator": "Mỹ Trinh"
     },
@@ -19,7 +30,7 @@
       "quantity": "10000",
       "registration_number": "540-2024/CXBIPH/68-41/HN",
       "self_published": "",
-      "stt": "2",
+      "stt": "3",
       "title": "Overlord - 7",
       "translator": "Supa"
     },
@@ -30,7 +41,7 @@
       "quantity": "10000",
       "registration_number": "540-2024/CXBIPH/67-41/HN",
       "self_published": "",
-      "stt": "3",
+      "stt": "4",
       "title": "Overlord - 6",
       "translator": "Supa"
     },
@@ -41,7 +52,7 @@
       "quantity": "10000",
       "registration_number": "540-2024/CXBIPH/66-41/HN",
       "self_published": "",
-      "stt": "4",
+      "stt": "5",
       "title": "Overlord - 5",
       "translator": "Supa"
     },
@@ -52,7 +63,7 @@
       "quantity": "10000",
       "registration_number": "540-2024/CXBIPH/65-41/HN",
       "self_published": "",
-      "stt": "5",
+      "stt": "6",
       "title": "Overlord - 2",
       "translator": "Supa"
     },
@@ -63,7 +74,7 @@
       "quantity": "10000",
       "registration_number": "540-2024/CXBIPH/64-41/HN",
       "self_published": "",
-      "stt": "6",
+      "stt": "7",
       "title": "Overlord - 1",
       "translator": "Supa"
     },
@@ -74,7 +85,7 @@
       "quantity": "5000",
       "registration_number": "80-2024/CXBIPH/176-2/HĐ",
       "self_published": "",
-      "stt": "7",
+      "stt": "8",
       "title": "Overlord 2 - Chiến binh bóng tối",
       "translator": "Mai Anh"
     },
@@ -85,7 +96,7 @@
       "quantity": "5000",
       "registration_number": "80-2024/CXBIPH/175-2/HĐ",
       "self_published": "",
-      "stt": "8",
+      "stt": "9",
       "title": "Overlord 1 - Chúa tể bất tử",
       "translator": "Mỹ Trinh"
     },
@@ -96,20 +107,9 @@
       "quantity": "10000",
       "registration_number": "3129-2023/CXBIPH/13-88/HĐ",
       "self_published": "",
-      "stt": "9",
+      "stt": "10",
       "title": "Overlord 8 - Hai lãnh đạo",
       "translator": "Quỳnh Chi"
-    },
-    {
-      "author": "Maruyama Kugane, Minh họa: So-bin",
-      "isbn": "978-604-476-082-7",
-      "partner": "Công ty Cổ phần Xuất bản và truyền thông IPM: 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội",
-      "quantity": "10000",
-      "registration_number": "1843-2023/CXBIPH/35-45/HĐ",
-      "self_published": "",
-      "stt": "10",
-      "title": "Overlord 7 - Những kẻ xâm nhập",
-      "translator": "Ngọc Phương - Duy Long"
     }
   ]
 }
