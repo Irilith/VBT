@@ -2,13 +2,35 @@
   "query": "Hành Trình Của Elaina",
   "rows": [
     {
+      "author": "Nguyên tác: Jougi Shiraishi Minh họa: Itsuki Nanao Thiết kế nhân vật: Azure",
+      "isbn": "978-632-00-4625-6",
+      "partner": "Công ty Cổ phần Truyền thông và Xuất bản Amak Số 18 Nguyễn Khắc Viện, Phường Việt Hưng, Hà Nội",
+      "quantity": "5000",
+      "registration_number": "1097-2026/CXBIPH/15-52/DT",
+      "self_published": "",
+      "stt": "1",
+      "title": "Hành trình của Elaina 4 (bản truyện tranh)",
+      "translator": "Hà Lâm"
+    },
+    {
+      "author": "Nguyên tác: Jougi Shiraishi Minh họa: Itsuki Nanao Thiết kế nhân vật: Azure",
+      "isbn": "978-632-00-4624-9",
+      "partner": "Công ty Cổ phần Truyền thông và Xuất bản Amak Số 18 Nguyễn Khắc Viện, Phường Việt Hưng, Hà Nội",
+      "quantity": "5000",
+      "registration_number": "1097-2026/CXBIPH/14-52/DT",
+      "self_published": "",
+      "stt": "2",
+      "title": "Hành trình của Elaina 3 (bản truyện tranh)",
+      "translator": "Hà Lâm"
+    },
+    {
       "author": "Jougi Shiraishi;Minh họa: Azure",
       "isbn": "978-604-44-2298-5",
       "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, Phường Ngọc Hà, Hà Nội",
       "quantity": "5000",
       "registration_number": "888-2026/CXBIPH/30-77/HN",
       "self_published": "",
-      "stt": "1",
+      "stt": "3",
       "title": "Hành trình của Elaina tập - 15",
       "translator": "Ji"
     },
@@ -19,7 +41,7 @@
       "quantity": "5000",
       "registration_number": "888-2026/CXBIPH/29-77/HN",
       "self_published": "",
-      "stt": "2",
+      "stt": "4",
       "title": "Hành trình của Elaina - Tập 14",
       "translator": "Ji"
     },
@@ -30,7 +52,7 @@
       "quantity": "5000",
       "registration_number": "888-2026/CXBIPH/28-77/HN",
       "self_published": "",
-      "stt": "3",
+      "stt": "5",
       "title": "Hành trình của Elaina - tập 10",
       "translator": "Hoàng Việt Trân"
     },
@@ -41,7 +63,7 @@
       "quantity": "5000",
       "registration_number": "888-2026/CXBIPH/27-77/HN",
       "self_published": "",
-      "stt": "4",
+      "stt": "6",
       "title": "Hành trình của Elaina - Tập 7",
       "translator": "Nguyễn Thị Liên"
     },
@@ -52,7 +74,7 @@
       "quantity": "5000",
       "registration_number": "888-2026/CXBIPH/26-77/HN",
       "self_published": "",
-      "stt": "5",
+      "stt": "7",
       "title": "Hành trình của Elaina tập 5",
       "translator": "Roku"
     },
@@ -63,7 +85,7 @@
       "quantity": "10000",
       "registration_number": "769-2026/CXBIPH/14-35/DT",
       "self_published": "",
-      "stt": "6",
+      "stt": "8",
       "title": "Hành trình của Elaina 4 (bản truyện tranh)",
       "translator": "Hà Lâm"
     },
@@ -74,7 +96,7 @@
       "quantity": "10000",
       "registration_number": "769-2026/CXBIPH/13-35/DT",
       "self_published": "",
-      "stt": "7",
+      "stt": "9",
       "title": "Hành trình của Elaina 3 (bản truyện tranh)",
       "translator": "Hà Lâm"
     },
@@ -85,31 +107,9 @@
       "quantity": "10000",
       "registration_number": "693-2026/CXBIPH/6-32/DT",
       "self_published": "",
-      "stt": "8",
+      "stt": "10",
       "title": "Hành trình của Elaina 1 (bản truyện tranh)",
       "translator": "Unoday Studio"
-    },
-    {
-      "author": "Nguyên tác: Jougi Shiraishi Minh họa: Itsuki Nanao Thiết kế nhân vật: Azure",
-      "isbn": "978-632-00-2995-2",
-      "partner": "Công ty Cổ phần Truyền thông và Xuất bản Amak - Số 18 Nguyễn Khắc Viện, Phường Việt Hưng, Hà Nội",
-      "quantity": "10000",
-      "registration_number": "119-2026/CXBIPH/40-03/DT",
-      "self_published": "",
-      "stt": "9",
-      "title": "Hành trình của Elaina 2 (bản truyện tranh)",
-      "translator": "Unoday Studio"
-    },
-    {
-      "author": "Jougi Shiraishi;Minh họa: Azure",
-      "isbn": "978-604-355-873-9",
-      "partner": "Công ty Cổ phần X.Y.Z - Số 35, ngách 189/61 Hoàng Hoa Thám, Cụm 6, phường Ngọc Hà, Hà Nội",
-      "quantity": "5000",
-      "registration_number": "3722-2025/CXBIPH/2-297/HN",
-      "self_published": "",
-      "stt": "10",
-      "title": "Hành trình của Elaina tập 3",
-      "translator": "Wata"
     }
   ]
 }
