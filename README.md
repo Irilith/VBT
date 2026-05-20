@@ -23,6 +23,3 @@ Hãy nhớ thiết lập secrets cho webhook `"WEEKLY"` và `"PROCESSED"`. Nếu
 
 Nếu bạn muốn đề xuất một cuốn sách để theo dõi, bạn có thể mở một issue hoặc pull request nếu bạn biết cách thực hiện. Ngoài ra, bạn cũng có thể đề xuất sách trực tiếp trong Discord server của mình. Cuốn sách phải là sách nổi tiếng (dựa trên số lượt vote của issue hoặc pull request, hoặc dựa trên hiểu biết của mình) hoặc ít nhất là cuốn sách mà mình muốn theo dõi.
 
-## Tham Gia Discord Server
-
-Nếu bạn muốn trò chuyện, hãy tham gia server Discord của mình: [discord.gg](https://discord.gg/VJ57nka8G6)
