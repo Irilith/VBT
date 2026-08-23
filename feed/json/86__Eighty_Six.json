@@ -2,13 +2,35 @@
   "query": "86 Eighty Six",
   "rows": [
     {
+      "author": "Tác giả: Asato Asato, Minh họa: Shirabii, Thiết kế vũ khí: I-IV",
+      "isbn": "978-632-07-1632-6",
+      "partner": "Công ty CP Xuất bản và truyền thông IPM - Số 88 Phố Nguyễn Văn Trỗi, Phương Liệt, Hà Nội",
+      "quantity": "10000",
+      "registration_number": "3174-2026/CXBIPH/13-258/HN",
+      "self_published": "",
+      "stt": "1",
+      "title": "86 Eighty Six Ep.12 Viên đạn xanh thần thánh",
+      "translator": "Nhật Tuyến"
+    },
+    {
+      "author": "Tác giả: Asato Asato;Minh họa: Shirabii Thiết kế vũ khí: I-IV",
+      "isbn": "978-632-03-2030-1",
+      "partner": "Công ty Cổ phần Xuất bản và truyền thông IPM: 88 Phố Nguyễn Văn Trỗi, Phương Liệt, Hà Nội",
+      "quantity": "15000",
+      "registration_number": "3007-2026/CXBIPH/10-182/LĐ",
+      "self_published": "",
+      "stt": "2",
+      "title": "86 Eighty Six - Ep.4 - Dưới tầng tầng áp lực",
+      "translator": "Quang Phúc"
+    },
+    {
       "author": "Tác giả: Asato Asato Minh họa: Shirabii Thiết kế vũ khí: I-IV",
       "isbn": "978-632-03-1465-2",
       "partner": "Công ty Cổ phần Xuất bản và truyền thông IPM: 88 Nguyễn Văn Trỗi,Phương Liệt, Hà Nội",
       "quantity": "15000",
       "registration_number": "1441-2026/CXBIPH/22-84/LĐ",
       "self_published": "",
-      "stt": "1",
+      "stt": "3",
       "title": "86 Eighty six Eep.14 Tô đen hết đi",
       "translator": "Nhật Tuyến"
     },
@@ -19,7 +41,7 @@
       "quantity": "15000",
       "registration_number": "1319-2026/CXBIPH/33-77/LĐ",
       "self_published": "",
-      "stt": "2",
+      "stt": "4",
       "title": "86 Eighty Six - Ep.11 - Ngày phán xét",
       "translator": "Duy Long"
     },
@@ -30,7 +52,7 @@
       "quantity": "15000",
       "registration_number": "1319-2026/CXBIPH/32-77/LĐ",
       "self_published": "",
-      "stt": "3",
+      "stt": "5",
       "title": "86 Eighty Six - Ep.10 - Muôn mảnh kí ức",
       "translator": "Thúy Cải"
     },
@@ -41,7 +63,7 @@
       "quantity": "15000",
       "registration_number": "1319-2026/CXBIPH/31-77/LĐ",
       "self_published": "",
-      "stt": "4",
+      "stt": "6",
       "title": "86 Eighty Six - Ep.06 - Bình minh xua tan đêm trường",
       "translator": "Ngân Linh"
     },
@@ -52,7 +74,7 @@
       "quantity": "15000",
       "registration_number": "1319-2026/CXBIPH/30-77/LĐ",
       "self_published": "",
-      "stt": "5",
+      "stt": "7",
       "title": "86 Eighty Six - Ep.02 Băng qua chiến tuyến - Khai màn",
       "translator": "Quang Phúc"
     },
@@ -63,7 +85,7 @@
       "quantity": "15000",
       "registration_number": "1039-2026/CXBIPH/12-65/LĐ",
       "self_published": "",
-      "stt": "6",
+      "stt": "8",
       "title": "86 Eighty Six - Ep.1 - Tám sáu",
       "translator": "Dịch: Thạch Linh Hiệu đính: Hoài Thu"
     },
@@ -74,7 +96,7 @@
       "quantity": "15000",
       "registration_number": "2269-2025/CXBIPH/23-146/LĐ",
       "self_published": "",
-      "stt": "7",
+      "stt": "9",
       "title": "86 Eighty Six Alter.1 - Đôi nét thanh xuân của Tử thần",
       "translator": "Mỹ Trinh"
     },
@@ -85,31 +107,9 @@
       "quantity": "15000",
       "registration_number": "2069-2025/CXBIPH/37-135/LĐ",
       "self_published": "",
-      "stt": "8",
+      "stt": "10",
       "title": "86 Eighty Six Alter.1 - Đôi nét thanh xuân của Tử thần",
       "translator": ""
-    },
-    {
-      "author": "Tác giả: Asato Asato Minh họa: Shirabii Thiết kế vũ khí: I-IV",
-      "isbn": "978-632-611-468-3",
-      "partner": "Công ty Cổ phần Xuất bản và truyền thông IPM: 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội",
-      "quantity": "20000",
-      "registration_number": "777-2025/CXBIPH/46-52/LĐ",
-      "self_published": "",
-      "stt": "9",
-      "title": "86 Eighty Six - Ep.13 - Hỡi chàng thợ săn thân mến",
-      "translator": "Nhật Tuyến"
-    },
-    {
-      "author": "Tác giả: Asato Asato;Minh họa: Shirabii;Thiết kế vũ khí: I-IV",
-      "isbn": "978-632-611-306-8",
-      "partner": "Công ty Cổ phần Xuất bản và truyền thông IPM: 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội",
-      "quantity": "20000",
-      "registration_number": "596-2025/CXBIPH/39-43/LĐ",
-      "self_published": "",
-      "stt": "10",
-      "title": "86 Eighty Six Ep. 11 ngày phán xét",
-      "translator": "Duy Long"
     }
   ]
 }
